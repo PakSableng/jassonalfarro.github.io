@@ -10,6 +10,7 @@
 
 <style>
 
+/* RESET */
 *{
     margin:0;
     padding:0;
@@ -18,18 +19,18 @@
 }
 
 body{
-    background:linear-gradient(135deg,#0a1f44,#0d47a1,#1976d2);
+    background: linear-gradient(120deg,#0f2027,#203a43,#2c5364);
     color:white;
+    padding:50px 20px;
     min-height:100vh;
-    padding:60px 20px;
 }
 
 /* JUDUL */
 h1{
     text-align:center;
-    margin-bottom:40px;
+    margin-bottom:50px;
     font-size:32px;
-    color:#bbdefb;
+    color:#00ffe7;
 }
 
 /* TABEL */
@@ -39,35 +40,34 @@ h1{
 
 table{
     width:100%;
-    max-width:850px;
+    max-width:900px;
     margin:auto;
     border-collapse:collapse;
-    background:rgba(255,255,255,0.08);
     border-radius:12px;
     overflow:hidden;
-    box-shadow:0 10px 25px rgba(0,0,0,0.3);
 }
 
 th, td{
-    padding:14px 18px;
+    padding:15px 20px;
     text-align:center;
 }
 
 th{
-    background:#2196f3;
-    color:white;
+    background:#00ffe7;
+    color:black;
     font-weight:600;
     font-size:15px;
 }
 
 td{
-    color:#e3f2fd;
-    border-bottom:1px solid rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.05);
+    color:white;
+    border-bottom:1px solid rgba(0,255,231,0.3);
 }
 
 /* HOVER */
 tr:hover td{
-    background:rgba(33,150,243,0.2);
+    background: rgba(0,255,231,0.1);
 }
 
 /* TOMBOL KEMBALI */
@@ -77,8 +77,8 @@ tr:hover td{
     margin:40px auto 0;
     padding:12px;
     text-align:center;
-    background:#2196f3;
-    color:white;
+    background:#00ffe7;
+    color:black;
     text-decoration:none;
     border-radius:30px;
     font-weight:600;
@@ -86,12 +86,12 @@ tr:hover td{
 }
 
 .back-btn:hover{
-    background:#42a5f5;
+    background:#33fff0;
     transform:scale(1.05);
 }
 
 /* RESPONSIVE */
-@media(max-width:600px){
+@media(max-width:768px){
 
     h1{
         font-size:26px;
